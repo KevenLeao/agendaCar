@@ -1,6 +1,6 @@
 <?php
 //OBS: Caso não funcionar, altere a linha abaixo de "localhost:3307" para "localhost".
-$conn = new mysqli("localhost:3307", "root", "", "agendaCar");
+$conn = new mysqli("localhost", "root", "", "agendaCar");
 //select dos veículos disponiveis no banco
 $sql = "SELECT * FROM veiculos";
 $result = $conn->query($sql);

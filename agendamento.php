@@ -1,7 +1,7 @@
 <?php
 
 //OBS: Caso não funcionar, altere a linha abaixo de "localhost:3307" para "localhost".
-$conn = new mysqli("localhost:3307", "root", "", "agendaCar");
+$conn = new mysqli("localhost", "root", "", "agendaCar");
 
 $veiculo_id = $_GET['id'];
 

@@ -20,7 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `agendacar`
 --
-
+CREATE DATABASE IF NOT EXISTS agendaCar;
+USE agendaCar;
 -- --------------------------------------------------------
 
 --
