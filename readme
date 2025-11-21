@@ -1,0 +1,7 @@
+Utilizei o xampp, a table do banco é bem simples e pode ser importada a partir do arquivo agendacar.sql
+OBS: tentei fazer um migrations para ficar mais profissional, mas não é uma tecnologia que estou familiarizado no momento, então não consegui finalizar de forma correta.
+
+Caso esteja dando algum erro de mysql, é só alterar as portas de 3307 para 3306 (padrão)
+eu utilizo 3307 para diferenciar de outros projetos do trabalho.
+
+O arquivo principal é main.php
